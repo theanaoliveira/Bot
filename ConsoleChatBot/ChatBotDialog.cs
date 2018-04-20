@@ -13,7 +13,7 @@ namespace ConsoleChatBot
         {
             var response = new Response
             {
-                Text = "<b>Hello bot developer!</b>",
+                Text = "Olá!",
                 Format = ResponseFormat.Html
             };
 
@@ -26,7 +26,7 @@ namespace ConsoleChatBot
             result.SendResponse("Tudo otimo, e com você?");
         }
 
-        
+        [Expression("")]
         public void HelloBotGeral(Result result)
         {
             result.SendResponse("Desculpe, não entendi");
